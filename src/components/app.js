@@ -25,7 +25,6 @@ export default class App extends Component {
 		return (
 			<Provider value={props}>
 				<div id="app">
-				
 					<Header />
 					<Router onChange={this.handleRoute}>
 						<Home path="/" />
