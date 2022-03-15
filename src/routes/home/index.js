@@ -1,6 +1,5 @@
 import { h } from "preact";
 import { useEffect } from 'preact/hooks';
-import SaintPreview from '../../components/SaintPreview';
 
 const Home = () => {
 	/*
@@ -18,7 +17,6 @@ const Home = () => {
 	return (
 		<div>
 			<p>This is a test</p>
-			<SaintPreview />
 		</div>
 	);
 };
