@@ -1,50 +1,47 @@
-@import url("https://fonts.googleapis.com/css?family=Courgette&text=Jane%20Doe");
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 html, body {
-	height: 100%;
-	width: 100%;
-	padding: 0 1vw;
-	margin: 0;
-	background: #FAFAFA;
-	font-family: 'Helvetica Neue', arial, sans-serif;
-	font-weight: 400;
-	color: #444;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  font-family: 'Amiri', serif;
 }
 
-* {
-	box-sizing: border-box;
+p,h1,h2,h3,h4,h5,h6 {
+  font-family: 'Amiri', serif;
+  margin: 6px 0px;
 }
 
-#app {
-	height: 100%;
+p {
+  font-size: 1rem;
+  color: #000;
+  text-align: justify;
+}
+h1 {
+  font-size: 2.2rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.8rem;
+}
+h4 {
+  font-size: 1.6rem;
+}
+h5 {
+  font-size: 1.4rem;
+}
+h6 {
+  font-size: 1.2rem;
 }
 
-
-a {
-	text-decoration: none;
-	color: #333;
+a, a * {
+  text-decoration: none;
 }
-
-.loading {
-	animation-duration: 1s;
-	animation-fill-mode: forwards;
-	animation-iteration-count: infinite;
-	animation-name: placeHolderShimmer;
-	animation-timing-function: linear;
-	background: #f6f7f9;
-	background-image: linear-gradient(to right, #f6f7f9 0%, #e9ebee 20%, #f6f7f9 40%, #f6f7f9 100%);
-	background-repeat: no-repeat;
-	background-size: 800px 104px;
-	position: relative;
-}
-
-@keyframes placeHolderShimmer{
-  0% {
-      background-position: -468px 0;
-  }
-  100% {
-      background-position: 468px 0;
-  }
+a:hover,
+a:focus,
+a:visited,
+a:hover *,
+a:focus *,
+a:visited * {
+  text-decoration: none
 }
