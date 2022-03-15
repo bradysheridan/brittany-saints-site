@@ -1,7 +1,7 @@
 import { h, Component } from 'preact';
 import { Router } from 'preact-router';
 import { Provider } from '@preact/prerender-data-provider';
-import Header from './header';
+import Header from './Header';
 import NotFoundPage from '../routes/notfound';
 
 // Code-splitting is automated for routes

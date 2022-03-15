@@ -11,9 +11,8 @@ collections:
     create: true
     fields:
       - { label: "Name", name: "name", widget: "string"}
-      - { label: "Coordinates", name: "name", widget: "string"}
-      - { label: "Info", name: "name", widget: "markdown"}
-      - { label: "Location Status", name: "name", widget: "select", options: ["known", "unknown", "approximation"]}
+      - { label: "Info", name: "info", widget: "markdown"}
+      - { label: "Location Status", name: "location_status", widget: "select", options: ["known", "unknown", "approximation"]}
       - { label: "Location", name: "location", widget: "map" }
   - name: "pages"
     label: "Pages"
