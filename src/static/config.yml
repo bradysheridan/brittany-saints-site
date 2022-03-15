@@ -1,5 +1,6 @@
 backend:
   name: git-gateway
+  repo: bradysheridan/brittany-saints-site
   branch: main
 media_folder: src/assets
 public_folder: /assets
