@@ -1,7 +1,7 @@
 # blog
 
 ## CLI Commands
-
+test
 ``` bash
 # install dependencies
 npm install
@@ -35,4 +35,3 @@ For detailed explanation on how things work, checkout the [CLI Readme](https://g
 - Done 👍🏻.
 
 *Note:* Go to `https://<your-domain>/admin` in order to access Netlify CMS.
-
