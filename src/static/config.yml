@@ -10,12 +10,11 @@ collections:
     folder: "content/saints"
     create: true
     fields:
-      - { label: "Name", name: "title", widget: "string"}
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Subtitle", name: "subtitle", widget: "string"}
-      - { label: "Cover", name: "cover", widget: "image"}
-      - { label: "Tags", name: "tags", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown"}
+      - { label: "Name", name: "name", widget: "string"}
+      - { label: "Coordinates", name: "name", widget: "string"}
+      - { label: "Info", name: "name", widget: "markdown"}
+      - { label: "Location Status", name: "name", widget: "select", options: ["known", "unknown", "approximation"]}
+      - { label: "Location", name: "location", widget: "map" }
   - name: "pages"
     label: "Pages"
     label_singular: "Page" # Used in the UI, ie: "New Post"
